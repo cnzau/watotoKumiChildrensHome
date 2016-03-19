@@ -20,4 +20,4 @@ ul.pagination li .active {
     color: white;
 }
 
-ul.pagination li :hover:not(.active) {background-color: #ddd;}
+ul.pagination li:hover:not(.active) {background-color: #ddd;}
