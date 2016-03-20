@@ -16,6 +16,12 @@ header {
 
 }
 
+.navbar {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  transition: 0.5s ease;
+}
 
 .ul.pagination {
     display: inline-block;
