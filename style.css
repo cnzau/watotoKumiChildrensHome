@@ -5,6 +5,18 @@ header {
   z-index: 10;
 }
 
+@supports (position: sticky) {
+  body {
+    padding-top: 0;
+  }
+
+  header {
+    position: sticky;
+  }
+
+}
+
+
 .ul.pagination {
     display: inline-block;
     padding: 0;
