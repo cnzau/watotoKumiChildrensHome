@@ -102,6 +102,15 @@ header {
   line-height: 40px;
   transition: 0.5s ease;
 }
+.scrolled.navbar .nav .item #active {
+  display: inline-block;
+  background-color: #ffffff;
+  height: 40px;
+  line-height: 30px;
+  padding: 5px;
+  border-radius: 2px;
+  transition: 0.5s ease;
+}
 
 .ul.pagination {
     display: inline-block;
