@@ -5,6 +5,7 @@ body {
     width: 960px;
     margin: 0 auto;
     padding-top: 70px;
+    background-color: #C8E6C9;
 }
 .cover {
     margin-top: -65px;
@@ -35,6 +36,7 @@ header {
 }
 .navbar a {
     text-decoration: none;
+    color: green;
 }
 .navbar .logo {
   float: left;
@@ -46,7 +48,7 @@ header {
   padding-top: 0px;
   transition: 0.5s ease;
   font-family: 'Playfair Display SC', serif;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 28px;
   font-style: italic;
   line-height: 0.95;
