@@ -1,5 +1,5 @@
 *{
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 body {
     width: 960px;
@@ -11,10 +11,10 @@ body {
     margin-top: -65px;
 }
 header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 @supports (position: sticky) {
@@ -29,29 +29,29 @@ header {
 }
 
 .navbar {
-  position: relative;
-  height: 80px;
-  width: 960px;
-  transition: 0.5s ease;
+    position: relative;
+    height: 80px;
+    width: 960px;
+    transition: 0.5s ease;
 }
 .navbar a {
     text-decoration: none;
     color: green;
 }
 .navbar .logo {
-  float: left;
-  display: inline-block;
-  margin-top: 5px;
-  margin-left: 5%;
-  height: 70px;
-  width: 270px;
-  padding-top: 0px;
-  transition: 0.5s ease;
-  font-family: 'Playfair Display SC', serif;
-  font-weight: 700;
-  font-size: 28px;
-  font-style: italic;
-  line-height: 0.95;
+    float: left;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5%;
+    height: 70px;
+    width: 270px;
+    padding-top: 0px;
+    transition: 0.5s ease;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    font-size: 28px;
+    font-style: italic;
+    line-height: 0.95;
 }
 .navbar .logo span {
     font-size: 20px;
@@ -64,54 +64,62 @@ header {
 }
 
 .navbar .nav {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  float: right;
-  margin-right: 5%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: right;
+    margin-right: 5%;
 }
 .navbar .nav .item {
-  list-style: none;
-  display: inline-block;
-  font-size: 18px;
-  padding: 2px 5px 5px 5px;
-  font-weight: 300;
-  line-height: 80px;
-  margin-right: 20px;
-  transition: 0.5s ease;
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 2px 5px 5px 5px;
+    font-weight: 300;
+    line-height: 80px;
+    margin-right: 20px;
+    transition: 0.5s ease;
 }
 .navbar .nav .item #active {
-  display: inline-block;
-  background-color: #ffffff;
-  height: 40px;
-  line-height: 30px;
-  padding: 5px;
-  border-radius: 2px;
-  transition: 0.5s ease;
+    display: inline-block;
+    background-color: #ffffff;
+    height: 40px;
+    line-height: 30px;
+    padding: 5px;
+    border-radius: 2px;
+    transition: 0.5s ease;
+}
+.navbar .nav .item:hover:not(#active) {
+    background-color: #A5D6A7;
+    height: 40px;
+    line-height: 30px;
+    padding: 5px;
+    border-radius: 2px;
+    transition: 0.5s ease;
 }
 
 .scrolled {
- transition: 0.5s ease;
+    transition: 0.5s ease;
 }
 .scrolled.navbar {
-  height: 50px;
-  background-color: rgba(0, 0, 0, 1.0);
-  transition: 0.5s ease;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 1.0);
+    transition: 0.5s ease;
 }
 .scrolled.navbar .logo {
-  float: left;
-  display: inline-block;
-  margin-top: 5px;
-  margin-left: 5%;
-  width: 220px;
-  height: 40px;
-  transition: 0.5s ease;
-  font-family: 'Playfair Display SC', serif;
-  font-weight: 700;
-  font-size: 24px;
-  font-style: italic;
-  font-style: italic;
-  line-height: 0.8;
+    float: left;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5%;
+    width: 220px;
+    height: 40px;
+    transition: 0.5s ease;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: italic;
+    font-style: italic;
+    line-height: 0.8;
 }
 .scrolled.navbar .logo span {
     font-size: 16px;
@@ -123,17 +131,17 @@ header {
     transition: 0.5s ease;
 }
 .scrolled.navbar .nav .item {
-  line-height: 40px;
-  transition: 0.5s ease;
+    line-height: 40px;
+    transition: 0.5s ease;
 }
 .scrolled.navbar .nav .item #active {
-  display: inline-block;
-  background-color: #ffffff;
-  height: 40px;
-  line-height: 30px;
-  padding: 5px;
-  border-radius: 2px;
-  transition: 0.5s ease;
+    display: inline-block;
+    background-color: #ffffff;
+    height: 40px;
+    line-height: 30px;
+    padding: 5px;
+    border-radius: 2px;
+    transition: 0.5s ease;
 }
 
 .ul.pagination {
@@ -142,7 +150,9 @@ header {
     margin: 0;
 }
 
-ul.pagination li {display: inline;}
+ul.pagination li {
+    display: inline;
+}
 
 ul.pagination li {
     color: black;
@@ -157,4 +167,6 @@ ul.pagination li.active {
     color: white;
 }
 
-ul.pagination li:hover:not(.active) {background-color: #ddd;}
+ul.pagination li:hover:not(.active) {
+    background-color: #ddd;
+}
