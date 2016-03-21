@@ -22,6 +22,24 @@ header {
   width: 100%;
   transition: 0.5s ease;
 }
+.navbar a {
+    text-decoration: none;
+}
+.navbar .logo {
+  float: left;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5%;
+  height: 70px;
+  width: 270px;
+  padding-top: 0px;
+  transition: 0.5s ease;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 700px;
+  font-size: 28px;
+  font-style: italic;
+  line-height: 0.95;
+}
 
 .ul.pagination {
     display: inline-block;
