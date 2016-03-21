@@ -98,6 +98,21 @@ header {
   background-color: rgba(0, 0, 0, 1.0);
   transition: 0.5s ease;
 }
+.scrolled.navbar .logo {
+  float: left;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5%;
+  width: 220px;
+  height: 40px;
+  transition: 0.5s ease;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 700;
+  font-size: 24px;
+  font-style: italic;
+  font-style: italic;
+  line-height: 0.8;
+}
 .scrolled.navbar .nav .item {
   line-height: 40px;
   transition: 0.5s ease;
