@@ -113,6 +113,15 @@ header {
   font-style: italic;
   line-height: 0.8;
 }
+.scrolled.navbar .logo span {
+    font-size: 16px;
+}
+.scrolled.navbar .logo img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    transition: 0.5s ease;
+}
 .scrolled.navbar .nav .item {
   line-height: 40px;
   transition: 0.5s ease;
