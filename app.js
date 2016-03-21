@@ -1,3 +1,13 @@
+$(document).ready(function() {
+      $(window).on('scroll', function() {
+        if (Math.round($(window).scrollTop()) > 100) {
+          $('.navbar').addClass('scrolled');
+        } else {
+          $('.navbar').removeClass('scrolled');
+        }
+      });
+    });
+
 function display_story(id) {
 	var x = id[1];
 	document.getElementById("s1").removeAttribute("class", "active");
