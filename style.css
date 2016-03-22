@@ -5,7 +5,7 @@ body {
     width: 960px;
     margin: 0 auto;
     padding-top: 70px;
-    background-color: #C8E6C9;
+    background-color: #A5D6A7;
 }
 .cover {
     margin-top: -65px;
@@ -144,6 +144,13 @@ header {
     transition: 0.5s ease;
 }
 
+main {
+    background-color: #C8E6C9;
+}
+.container {
+    padding: 2px 5px 5px;
+} 
+
 .ul.pagination {
     display: inline-block;
     padding: 0;
@@ -169,4 +176,22 @@ ul.pagination li.active {
 
 ul.pagination li:hover:not(.active) {
     background-color: #ddd;
+}
+
+footer {
+    background-color: #8BC34A;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 100px;
+}
+footer p {
+    margin: 0;
+    text-align: center;
+    padding-top: 40px;
+    color: #CDDC39;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
 }
