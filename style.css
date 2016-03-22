@@ -214,6 +214,15 @@ ul.pagination li:hover:not(.active) {
     margin-top: 2px;
     margin-bottom: 2px;  
 }
+.responsive {
+
+    width: 315px;
+    height: 280px;
+    border-radius: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 footer {
     clear: both;
