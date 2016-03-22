@@ -155,6 +155,7 @@ header {
 main {
     background-color: #C8E6C9;
 }
+
 .container {
     padding: 2px 5px 5px;
 } 
@@ -163,8 +164,9 @@ main {
     display: inline-block;
     text-align: center;
     background-color: #A5D6A7;
+    line-height: 35px;
     width: 940px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 
@@ -186,7 +188,35 @@ ul.pagination li:hover:not(.active) {
     background-color: #ddd;
 }
 
+.row {
+    clear: both;
+}
+.left {
+    float: left;
+    width: 315px;
+    height: 280px;  
+    margin-top: 2px;
+    margin-bottom: 2px;  
+}
+.center {
+    float: left;
+    width: 315px;
+    height: 280px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px; 
+}
+.right {
+    float: right;
+    width: 315px;
+    height: 280px;  
+    margin-top: 2px;
+    margin-bottom: 2px;  
+}
+
 footer {
+    clear: both;
     background-color: #8BC34A;
     text-align: center;
     margin-top: 0px;
